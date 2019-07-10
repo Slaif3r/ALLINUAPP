@@ -1,8 +1,16 @@
 const express = require("express");
 const router = express.Router();
 
-router.get('/', (req, res) => {
-    res.send("Las tareas de API van aqui,")
+//se llama al modelo 
+const USR = require('../models/model'); 
+
+// ruta get para hacer las cosultas a BD
+router.get('/',async (req, res) => {
+   const USRASY = await USR.find();//find funciona como select
+   res.json(USRASY);
 });
+
+// RUTAS POST para mandar datos a BD
+//////
 
 module.exports = router;
