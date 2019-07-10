@@ -1,6 +1,8 @@
 const express = require("express");
 const srvr = express();
 const morgan = require("morgan");
+const mongoose = require("mongoose");
+
 //Settings Sections
 srvr.set('port',process.env.PORT || 3010);
 
