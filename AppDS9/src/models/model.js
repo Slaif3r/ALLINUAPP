@@ -6,7 +6,7 @@ const Usuarios = new Schema({
     User: String,
     Passw: String,
     Address: String,
-    CreatDate: Date
+    CreatDate: Date 
 
 });
 
