@@ -4,7 +4,7 @@ module.exports = {
     output: {
         path: __dirname + 'src/public/js',
         filename: 'bundle.js'
-    },\
+    },
     module:{
         rules:[
             {
