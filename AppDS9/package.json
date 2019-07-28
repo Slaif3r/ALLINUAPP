@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
-    "webpack": "webpack --mode development --watch"
+    "webpack": "webpack --mode development"
   },
   "author": "Aristides A. Morcillo",
   "license": "MIT",
@@ -15,8 +15,10 @@
     "morgan": "^1.9.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.5.5",
     "babel-loader": "^8.0.6",
     "babel-preset-env": "^1.7.0",
+    "css-loader": "^3.1.0",
     "nodemon": "^1.19.1",
     "vue": "^2.6.10",
     "vue-loader": "^15.7.1",
