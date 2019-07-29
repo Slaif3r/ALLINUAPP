@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/app/main.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/app/ConfigVue.js");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -127,7 +127,7 @@ eval("/* WEBPACK VAR INJECTION */(function(global) {var scope = (typeof global !
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _vm._m(0)\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"nav\", { staticClass: \"navbar navbar-light bg-dark\" }, [\n      _c(\"a\", { staticClass: \"navbar-b\", attrs: { href: \"/\" } }, [\n        _vm._v(\"LOGO\")\n      ])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./src/app/components/App.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _vm._m(0)\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\n      \"nav\",\n      { staticClass: \"navbar navbar-expand-lg navbar-dark bg-dark\" },\n      [\n        _c(\"a\", { staticClass: \"navbar-brand\", attrs: { href: \"#\" } }, [\n          _c(\"img\", {\n            staticClass: \"d-inline-block align-top\",\n            attrs: { src: \"/img/logo2.png\", width: \"35\", height: \"35\", alt: \"\" }\n          }),\n          _vm._v(\"\\n           Colaborative Network\")\n        ]),\n        _vm._v(\" \"),\n        _c(\n          \"button\",\n          {\n            staticClass: \"navbar-toggler\",\n            attrs: {\n              type: \"button\",\n              \"data-toggle\": \"collapse\",\n              \"data-target\": \"#navbarSupportedContent\",\n              \"aria-controls\": \"navbarSupportedContent\",\n              \"aria-expanded\": \"false\",\n              \"aria-label\": \"Toggle navigation\"\n            }\n          },\n          [_c(\"span\", { staticClass: \"navbar-toggler-icon\" })]\n        ),\n        _vm._v(\" \"),\n        _c(\n          \"div\",\n          {\n            staticClass: \"collapse navbar-collapse\",\n            attrs: { id: \"navbarSupportedContent\" }\n          },\n          [\n            _c(\"ul\", { staticClass: \"navbar-nav mr-auto\" }, [\n              _c(\"li\", { staticClass: \"nav-item active\" }, [\n                _c(\"a\", { staticClass: \"nav-link\", attrs: { href: \"#\" } }, [\n                  _vm._v(\"Servicios \"),\n                  _c(\"span\", { staticClass: \"sr-only\" }, [_vm._v(\"(current)\")])\n                ])\n              ]),\n              _vm._v(\" \"),\n              _c(\"li\", { staticClass: \"nav-item\" }, [\n                _c(\"a\", { staticClass: \"nav-link\", attrs: { href: \"#\" } }, [\n                  _vm._v(\"Quien Somos\")\n                ])\n              ]),\n              _vm._v(\" \"),\n              _c(\"li\", { staticClass: \"nav-item dropdown\" }, [\n                _c(\n                  \"a\",\n                  {\n                    staticClass: \"nav-link dropdown-toggle\",\n                    attrs: {\n                      href: \"#\",\n                      id: \"navbarDropdown\",\n                      role: \"button\",\n                      \"data-toggle\": \"dropdown\",\n                      \"aria-haspopup\": \"true\",\n                      \"aria-expanded\": \"false\"\n                    }\n                  },\n                  [_vm._v(\"\\n            Dropdown\\n         \")]\n                ),\n                _vm._v(\" \"),\n                _c(\n                  \"div\",\n                  {\n                    staticClass: \"dropdown-menu\",\n                    attrs: { \"aria-labelledby\": \"navbarDropdown\" }\n                  },\n                  [\n                    _c(\n                      \"a\",\n                      { staticClass: \"dropdown-item\", attrs: { href: \"#\" } },\n                      [_vm._v(\"Action\")]\n                    ),\n                    _vm._v(\" \"),\n                    _c(\n                      \"a\",\n                      { staticClass: \"dropdown-item\", attrs: { href: \"#\" } },\n                      [_vm._v(\"Another action\")]\n                    ),\n                    _vm._v(\" \"),\n                    _c(\"div\", { staticClass: \"dropdown-divider\" }),\n                    _vm._v(\" \"),\n                    _c(\n                      \"a\",\n                      { staticClass: \"dropdown-item\", attrs: { href: \"#\" } },\n                      [_vm._v(\"Something else here\")]\n                    )\n                  ]\n                )\n              ]),\n              _vm._v(\" \"),\n              _c(\"li\", { staticClass: \"nav-item\" })\n            ]),\n            _vm._v(\" \"),\n            _c(\"form\", { staticClass: \"form-inline my-2 my-lg-0\" }, [\n              _c(\n                \"button\",\n                {\n                  staticClass: \"btn btn-outline-primary my-2 my-sm-0\",\n                  attrs: { type: \"submit\" }\n                },\n                [_vm._v(\"Login\")]\n              )\n            ])\n          ]\n        )\n      ]\n    )\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./src/app/components/App.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
 
 /***/ }),
 
@@ -166,6 +166,18 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 
 /***/ }),
 
+/***/ "./src/app/ConfigVue.js":
+/*!******************************!*\
+  !*** ./src/app/ConfigVue.js ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar _vue = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.runtime.esm.js\");\n\nvar _vue2 = _interopRequireDefault(_vue);\n\nvar _App = __webpack_require__(/*! ./components/App.vue */ \"./src/app/components/App.vue\");\n\nvar _App2 = _interopRequireDefault(_App);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nnew _vue2.default({\n  render: function render(h) {\n    return h(_App2.default);\n  }\n}).$mount('#app');\n\n//# sourceURL=webpack:///./src/app/ConfigVue.js?");
+
+/***/ }),
+
 /***/ "./src/app/components/App.vue":
 /*!************************************!*\
   !*** ./src/app/components/App.vue ***!
@@ -187,18 +199,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _App
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_template_id_b64e4c62___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./App.vue?vue&type=template&id=b64e4c62& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/app/components/App.vue?vue&type=template&id=b64e4c62&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_template_id_b64e4c62___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_template_id_b64e4c62___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n\n\n//# sourceURL=webpack:///./src/app/components/App.vue?");
-
-/***/ }),
-
-/***/ "./src/app/main.js":
-/*!*************************!*\
-  !*** ./src/app/main.js ***!
-  \*************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\n\nvar _vue = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.runtime.esm.js\");\n\nvar _vue2 = _interopRequireDefault(_vue);\n\nvar _App = __webpack_require__(/*! ./components/App.vue */ \"./src/app/components/App.vue\");\n\nvar _App2 = _interopRequireDefault(_App);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nnew _vue2.default({\n  render: function render(h) {\n    return h(_App2.default);\n  }\n}).$mount('#app');\n\n//# sourceURL=webpack:///./src/app/main.js?");
 
 /***/ })
 
