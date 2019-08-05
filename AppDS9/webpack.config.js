@@ -11,14 +11,41 @@ module.exports = {
               test: /\.js$/,
                 exclude: /node_modules/,
                 use: [
-                    {loader: 'babel-loader'}
+                    {loader: 'babel-loader',
+                     options: {
+                        plugins:[
+                            "@babel/plugin-syntax-dynamic-import"
+                        ]
+                     }   
+                    }
                 ]
                     
                 
             },
             {
                 test: /\.vue$/,
-                loader: 'vue-loader'
+                loader: 'vue-loader',
+               
+            },
+            {
+                test: /\.scss$/,
+                use: [
+                    'vue-style-loader',
+                    'css-loader',
+                    'sass-loader'
+                ]
+            },
+            {
+                test: /\.(jpe?g|png|gif)$/i,
+                 use:[
+                     {
+                        loader: 'file-loader',
+                        options: {
+                            name: '../img/[name].[ext]',
+                            outputPath: '../img',
+                        }
+                     }
+                 ]   
             },
                 
         ]
