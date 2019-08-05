@@ -4,16 +4,33 @@
   "description": "proyectofinal desarrollo 9",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "webpack": "webpack --mode development"
   },
   "author": "Aristides A. Morcillo",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
+    "file-loader": "^4.1.0",
     "mongoose": "^5.6.4",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "vue-router": "^3.0.7",
+    "vuex": "^3.1.1"
   },
   "devDependencies": {
-    "nodemon": "^1.19.1"
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^3.1.0",
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.1",
+    "sass-loader": "^7.1.0",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.7.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6"
   }
 }
